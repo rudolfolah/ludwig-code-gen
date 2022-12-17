@@ -5,3 +5,5 @@ env
 dataset_*.meta.json
 dataset_*.hdf5
 results/
+trained/
+.idea/
