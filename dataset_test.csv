@@ -1,3 +1,5 @@
 source_code,test_code
 function world(a) { return a+1-1+1 },expect(world(1)).toEqual(2)
 function amazing(a) { return 1 + a },expect(amazing(1)).toEqual(2)
+if (formValid) {} else { console.error("invalid form"); },expect(console.error).not.toHaveBeenCalled()
+if (formValid) {} else { console.error("invalid form"); },expect(console.error).toHaveBeenCalled("invalid form")

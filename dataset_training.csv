@@ -1,3 +1,5 @@
 source_code,test_code
 function addOne(a) { return a + 1 },expect(addOne(1)).toEqual(2)
 function hello(a) { return 1+a },expect(hello(1)).toEqual(2)
+if (valid) { console.log("valid"); } else { console.error("invalid"); },expect(console.log).toHaveBeenCalledWith("valid")
+if (valid) { console.log("valid"); } else { console.error("invalid"); },expect(console.error).toHaveBeenCalledWith("invalid")
