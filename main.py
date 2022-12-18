@@ -9,17 +9,14 @@ config = {
             "encoder": {
                 "type": "bert",
                 "max_sequence_length": 3000,
-            }
+            },
         },
     ],
     "output_features": [
         {
             "name": "test_code",
             "type": "text",
-            "encoder": {
-                "type": "bert",
-            }
-        }
+        },
     ],
 }
 
